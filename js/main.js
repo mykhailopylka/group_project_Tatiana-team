@@ -1,15 +1,15 @@
 // Бургер
 $(document).ready(function () {
-  $(".header__burger").click(function (event) {
+  $(".header__burger, .close-btn").click(function (event) {
     $(".header__burger,.header__menu").toggleClass("active");
     $("body").toggleClass("lock");
   });
 
   //  .removeClass - дана функція закриває меню
-  $(".close-btn").click(function (event) {
-    $(".header__burger,.header__menu").toggleClass("active");
-    $("body").toggleClass("lock");
-  });
+  //   $(".close-btn").click(function (event) {
+  //     $(".header__burger,.header__menu").toggleClass("active");
+  //     $("body").toggleClass("lock");
+  //   });
 });
 
 //main-slick.js
