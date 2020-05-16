@@ -491,7 +491,7 @@
     margin: 0 auto;
   }
 
-/*   .footer__tekst {
+  /*   .footer__tekst {
     display: none;
   } */
 }
@@ -643,12 +643,10 @@
     font-size: var(--font-sz2);
   }
 
-
   .full-sckrin button {
     padding: 20px 50px;
     font-size: var(--font-sz8);
   }
-
 
   .yoga-info__socium {
     padding-top: 10%;
@@ -795,7 +793,6 @@
   .documents__content h2 {
     padding-bottom: 20px;
   }
-
 }
 
 /* ===================================================================== */

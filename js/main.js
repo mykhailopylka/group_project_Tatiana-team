@@ -1,8 +1,10 @@
 // Бургер
-
 // .addClass - додає функцію, відкриває меню
-$(".header__burger").on("click", function () {
-  $(".header__burger,.header__menu").addClass("active");
+$(document).ready(function () {
+  $(".header__burger").click(function (event) {
+    $(".header__burger,.header__menu").toggleClass("active");
+    $("body").toggleClass("lock");
+  });
 });
 //  .removeClass - дана функція закриває меню
 $(".close-btn").on("click", function () {
