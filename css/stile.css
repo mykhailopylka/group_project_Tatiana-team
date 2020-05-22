@@ -104,7 +104,7 @@ body {
   width: 100%;
   font-size: var(--global-font-size);
   line-height: 1;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
