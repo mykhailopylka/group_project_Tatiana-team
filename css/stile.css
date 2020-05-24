@@ -254,8 +254,7 @@ article {
   max-width: var(--width1);
   width: var(--width);
   margin: 0 auto;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .header {
