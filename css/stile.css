@@ -1088,8 +1088,9 @@ article {
 
 /*==================Отзывы================*/
 .coments {
-  margin-bottom: 135px;
   background-color: var(--gray);
+  padding-bottom: 100px;
+  margin-bottom: 135px;
 }
 
 .slider__coments {
@@ -1154,11 +1155,12 @@ article {
   padding-top: 15px;
 }
 
+/* Сдайдер відгуків */
 .slider__coments .slick-list {
   overflow: hidden;
 }
 
-/* Лента слайдов */
+/* Стрічка слайдів */
 .slider__coments .slick-track {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1168,7 +1170,7 @@ article {
   align-items: center;
 }
 
-/* Точки (булиты) */
+/* Крапки (буліти) */
 .slider__coments .slick-dots {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1184,6 +1186,7 @@ article {
   right: 0;
   left: 0;
   bottom: -45px;
+  border: solid;
 }
 
 .slider__coments .slick-dots li {
@@ -1191,7 +1194,7 @@ article {
   margin: 4px 7px;
 }
 
-/* Активная точка */
+/* Активна крапка */
 .slider__coments .slick-dots li.slick-active button {
   background-color: transparent;
   border: 2px solid #b4b4b4;
