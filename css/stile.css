@@ -1089,6 +1089,7 @@ article {
 /*==================Отзывы================*/
 .coments {
   margin-bottom: 135px;
+  background-color: var(--gray);
 }
 
 .slider__coments {
