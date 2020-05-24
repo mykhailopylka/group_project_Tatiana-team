@@ -538,7 +538,6 @@ article {
   display: -ms-flexbox;
   display: flex;
   margin-top: 45px;
-  /*изменен*/
 }
 
 .reasons__five__bottom .reason {
@@ -1091,7 +1090,6 @@ article {
 .coments {
   background-color: var(--gray);
   padding-bottom: 60px;
-  margin-bottom: 135px;
 }
 
 .slider__coments {
