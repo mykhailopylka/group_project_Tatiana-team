@@ -610,6 +610,7 @@ article {
   box-sizing: border-box;
   position: relative;
   min-width: 0;
+  cursor: pointer;
 }
 
 .slider__item {
